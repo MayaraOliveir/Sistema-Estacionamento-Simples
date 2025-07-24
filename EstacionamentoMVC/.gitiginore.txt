@@ -1,0 +1,12 @@
+# Ignorar pastas temporárias
+.vs/
+bin/
+obj/
+
+# Ignorar arquivos de configuração do VS
+*.user
+*.suo
+
+# Ignorar travas do SQLite
+*.db-shm
+*.db-wal

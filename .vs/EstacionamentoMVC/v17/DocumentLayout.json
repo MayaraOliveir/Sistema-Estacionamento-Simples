@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mayar\\OneDrive\\Documentos\\EstacionamentoMVC\\EstacionamentoMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{111ED5B3-8CE1-489F-AAAA-44BF3B968591}|EstacionamentoMVC\\EstacionamentoMVC.csproj|c:\\users\\mayar\\onedrive\\documentos\\estacionamentomvc\\estacionamentomvc\\estacionamentomvc\\.gitiginore.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{111ED5B3-8CE1-489F-AAAA-44BF3B968591}|EstacionamentoMVC\\EstacionamentoMVC.csproj|solutionrelative:estacionamentomvc\\.gitiginore.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{111ED5B3-8CE1-489F-AAAA-44BF3B968591}|EstacionamentoMVC\\EstacionamentoMVC.csproj|c:\\users\\mayar\\onedrive\\documentos\\estacionamentomvc\\estacionamentomvc\\estacionamentomvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{111ED5B3-8CE1-489F-AAAA-44BF3B968591}|EstacionamentoMVC\\EstacionamentoMVC.csproj|solutionrelative:estacionamentomvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitiginore.txt",
+              "DocumentMoniker": "C:\\Users\\mayar\\OneDrive\\Documentos\\EstacionamentoMVC\\EstacionamentoMVC\\EstacionamentoMVC\\.gitiginore.txt",
+              "RelativeDocumentMoniker": "EstacionamentoMVC\\.gitiginore.txt",
+              "ToolTip": "C:\\Users\\mayar\\OneDrive\\Documentos\\EstacionamentoMVC\\EstacionamentoMVC\\EstacionamentoMVC\\.gitiginore.txt",
+              "RelativeToolTip": "EstacionamentoMVC\\.gitiginore.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-24T22:47:48.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mayar\\OneDrive\\Documentos\\EstacionamentoMVC\\EstacionamentoMVC\\EstacionamentoMVC\\Program.cs",
+              "RelativeDocumentMoniker": "EstacionamentoMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\mayar\\OneDrive\\Documentos\\EstacionamentoMVC\\EstacionamentoMVC\\EstacionamentoMVC\\Program.cs",
+              "RelativeToolTip": "EstacionamentoMVC\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T22:39:07.852Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

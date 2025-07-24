@@ -1,0 +1,32 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model EstacionamentoMVC.Models.Veiculo
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow" style="background:#232946; color:#fff; border-radius:16px;">
+                <div class="card-header" style="background:#121629; color:#eebbc3; border-radius:16px 16px 0 0;">
+                    <h2 class="mb-0">Registrar Entrada de Veículo</h2>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Criar" method="post">
+                        <div class="mb-3">
+                            <label asp-for="Placa" class="form-label">Placa do Veículo</label>
+                            <input asp-for="Placa" class="form-control" placeholder="ABC1234 ou ABC1A23" maxlength="7" />
+                            <span asp-validation-for="Placa" class="text-danger"></span>
+                        </div>
+                        <button type="submit" class="btn botao-acao w-100">
+                            <i class="bi bi-plus-circle"></i> Registrar Entrada
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+</div>
+<!-- Importa scripts para validação do lado do cliente -->

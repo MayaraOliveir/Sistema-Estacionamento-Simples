@@ -1,0 +1,75 @@
+/* EstacionamentoMVC/wwwroot/css/site.css */
+.tabela-estacionamento {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(44, 62, 80, 0.08);
+    background: #232946;
+    color: #fff;
+}
+
+    .tabela-estacionamento thead {
+        background: #121629;
+        color: #eebbc3;
+        border-bottom: 2px solid #eebbc3;
+    }
+
+    .tabela-estacionamento th, .tabela-estacionamento td {
+        border: none;
+        padding: 1rem 1.25rem;
+        vertical-align: middle;
+    }
+
+    .tabela-estacionamento tbody tr {
+        transition: background 0.2s;
+    }
+
+        .tabela-estacionamento tbody tr:hover {
+            background: #393e6c;
+        }
+
+.selo-status {
+    background: #eebbc3;
+    color: #232946;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0.5em 1em;
+}
+
+.botao-acao {
+    background: linear-gradient(90deg, #eebbc3 0%, #b8c1ec 100%);
+    color: #232946;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: box-shadow 0.2s, transform 0.2s;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.10);
+}
+
+    .botao-acao:hover, .botao-acao:focus {
+        color: #232946;
+        background: linear-gradient(90deg, #b8c1ec 0%, #eebbc3 100%);
+        transform: translateY(-2px) scale(1.03);
+        box-shadow: 0 4px 16px rgba(44, 62, 80, 0.15);
+    }
+
+body {
+    background: #16161a;
+}
+html, body {
+    height: 100%;
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main[role="main"] {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
